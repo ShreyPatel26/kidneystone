@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web gunicorn kidneystone.wsgi:application --log-file -
